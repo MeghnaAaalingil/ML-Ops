@@ -1,0 +1,13 @@
+prefix=C:/Users/meghn/OneDrive/Desktop/Projects_2024/customer-satisfaction-zenml/env/Library
+exec_prefix=C:/Users/meghn/OneDrive/Desktop/Projects_2024/customer-satisfaction-zenml/env/Library
+libdir=C:/Users/meghn/OneDrive/Desktop/Projects_2024/customer-satisfaction-zenml/env/Library/lib
+sharedlibdir=C:/Users/meghn/OneDrive/Desktop/Projects_2024/customer-satisfaction-zenml/env/Library/lib
+includedir=C:/Users/meghn/OneDrive/Desktop/Projects_2024/customer-satisfaction-zenml/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
